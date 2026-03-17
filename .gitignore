@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# ML model and data artifacts
+*.pth
+*.pt
+uploaded_images/
+
+# Training/cache artifacts
+.cache/
+.huggingface/
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
