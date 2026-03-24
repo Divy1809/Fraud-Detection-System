@@ -4,7 +4,6 @@ import requests
 API_KEY = (
     os.getenv("GEMINI_API_KEY")
     or os.getenv("GOOGLE_API_KEY")
-    or "AIzaSyDhhOHSCsZXUc3jvYX7gVj5VlZAefeckTA"
 )
 
 print(f"DEBUG: Using API key: {API_KEY[:20]}..." if API_KEY else "DEBUG: No API key found")
